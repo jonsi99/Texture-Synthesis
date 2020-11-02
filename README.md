@@ -1,1 +1,2 @@
 # Texture-Synthesis
+The texture synthesis algorithm generates a larger texture image from a smaller texture sample. The algorithm begins by placing the sample on the upper left corner of a blank image. It then iteratively chooses an unfilled pixel which has the greatest number of filled pixels within its neighborhood and compares its neighborhood against neighborhoods from the sample to find the most similar one from which it will copy.
